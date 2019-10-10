@@ -5,7 +5,7 @@ class BodegasController < ApplicationController
   def index
     @bodegas = Bodega.all
 
-    render json: @bodegas
+    render json: BodegaSerializer.new(@bodegas)
   end
 
   # GET /bodegas/1

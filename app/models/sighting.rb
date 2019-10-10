@@ -1,3 +1,3 @@
 class Sighting < ApplicationRecord
-  belongs_to :cat_id
+  belongs_to :cat
 end

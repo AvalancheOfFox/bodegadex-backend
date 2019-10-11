@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 2019_10_10_133002) do
 
   create_table "bodegas", force: :cascade do |t|
     t.string "name"
-    t.string "address"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

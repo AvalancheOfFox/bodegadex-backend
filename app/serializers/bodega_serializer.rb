@@ -1,4 +1,4 @@
 class BodegaSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :address, :cats
+  attributes :name, :latitude, :longitude, :cats
 end

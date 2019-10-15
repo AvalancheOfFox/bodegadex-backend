@@ -14,6 +14,10 @@ bodega2=Bodega.create(name: "Chinese Hispanic Grocery", latitude: 40.718920,  lo
 bodega3=Bodega.create(name: "Reyes Deli & Grocery", latitude: 40.667578, longitude: -73.991588 )
 bodega4=Bodega.create(name: "Yafa Newsstand & Deli", latitude: 40.649554 , longitude: -74.009400)
 bodega5=Bodega.create(name: "New Foods of India", latitude: 40.742903 , longitude: -73.982166 )
+bodega6=Bodega.create(name: "P&P Putnam Co.", latitude: 40.687626 , longitude: -73.918783 )
+bodega7=Bodega.create(name: "110 Nostrand Ave Food Corp", latitude: 40.6964857, longitude: -73.9528032 )
+bodega8=Bodega.create(name:"1131 Lexington Farm Corp", latitude: 40.774525 , longitude: -73.958912)
+bodega8=Bodega.create(name:"Wholesome Farms", latitude: 40.701825 , longitude:-73.986891)
 
 cat1 = Cat.create(name: "Sprinkles", bodega_id: 1)
 cat2 = Cat.create(name: "Domino", bodega_id: 2)

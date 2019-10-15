@@ -46,6 +46,6 @@ class BodegasController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def bodega_params
-      params.require(:bodega).permit(:name, :address)
+      params.require(:bodega).permit(:name, :latitude, :longitude)
     end
 end

@@ -46,6 +46,6 @@ class SightingsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def sighting_params
-      params.require(:sighting).permit(:cat_id_id, :description, :img)
+      params.require(:sighting).permit(:cat_id, :description, :img, :bodega_id)
     end
 end

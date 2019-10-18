@@ -18,6 +18,7 @@ bodega6=Bodega.create(name: "P&P Putnam Co.", latitude: 40.687626 , longitude: -
 bodega7=Bodega.create(name: "110 Nostrand Ave Food Corp", latitude: 40.6964857, longitude: -73.9528032 )
 bodega8=Bodega.create(name:"1131 Lexington Farm Corp", latitude: 40.774525 , longitude: -73.958912)
 bodega8=Bodega.create(name:"Wholesome Farms", latitude: 40.701825 , longitude:-73.986891)
+bodega9=Bodega.create(name: "1239 Food Corp", latitude: 40.843604, longitude: -73.937934)
 
 cat1 = Cat.create(name: "Sprinkles", bodega_id: 1)
 cat2 = Cat.create(name: "Domino", bodega_id: 2)
@@ -29,6 +30,7 @@ cat7 = Cat.create(name: "Dennis", bodega_id: 2)
 cat8 = Cat.create(name: "L-Dog", bodega_id: 3)
 cat9 = Cat.create(name: "Grizabella", bodega_id: 4)
 cat10 = Cat.create(name: "Pickles", bodega_id: 5)
+cat11 = Cat.create(name: "Bigglesworth", bodega_id: 7)
 
 sighting1 = Sighting.create(cat_id: 1, description: "very cute boi", img: "https://media.mnn.com/assets/images/2016/01/bodegacoorscat-rosiber90.jpg.653x0_q80_crop-smart.jpg")
 sighting2 = Sighting.create(cat_id: 2, description: "very sleepy gorl", img: "https://cms.prod.nypr.digital/images/62726/fill-661x496/")

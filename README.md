@@ -1,4 +1,5 @@
 # README
 
-This application runs with a Rails backend and a React frontend that is yet-to-be-committed. 
+This is the backend component to a Bodega Cat Pokedex which can be found [here] (https://github.com/AvalancheOfFox/bodegadex-frontend).
 
+To run, clone to your desktop, open and run rails s. 
